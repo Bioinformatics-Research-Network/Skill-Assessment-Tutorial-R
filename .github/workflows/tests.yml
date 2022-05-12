@@ -1,0 +1,17 @@
+on: workflow_dispatch
+
+name: test
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash -l {0}
+    steps:
+      - uses: actions/checkout@v3
+      - uses: r-lib/actions/setup-r@v3
+        with:
+          use-public-rspm: true
+      - run: Rscript -e 'install.packages("testthat")'
+      - run: Rscript -e 'testthat::test_dir("tests/", stop_on_failure = T)'
