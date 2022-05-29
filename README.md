@@ -226,7 +226,7 @@ For a tutorial on how to use **git and GitHub**, check out these resources:
 2. YouTube tutorials: [Tech with Tim](https://www.youtube.com/watch?v=DVRQoVRzMIY), [freecodecamp.org](https://www.youtube.com/watch?v=RGOj5yH7evk), [Amigoscode](https://www.youtube.com/watch?v=3fUbBnN_H2c)
 
 
-For basic **python programming**, check out these resources:
+For basic **R programming**, check out these resources:
 
 1. Written tutorials: [Introduction to R (book)](https://intro2r.com/), [Hands-On Programming with R (book)](https://rstudio-education.github.io/hopr/), [W3 schools](https://www.w3schools.com/r/)
 2. YouTube tutorials: [Simplilearn](https://www.youtube.com/watch?v=7NLPPFU0O3w), [Algovibes](https://www.youtube.com/watch?v=fpl_ny-jX5Y), [BIG Bioinformatics](https://www.bigbioinformatics.org/r-for-premat)
