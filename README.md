@@ -140,7 +140,7 @@ You can view and edit the code using any of the following options:
 
 <hr>
 
-1. [Clone the repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) to your local computer, and then open the code in your favorite editor (e.g., RStudio). Once you are happy with your changes, use git to `add` your changes, `commit` them, and then `push` them back to this GitHub repo. (**Recommended approach**)
+1. [Clone the repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) to your local computer, and then open the code in your favorite editor (e.g., RStudio, VS Code, atom, vim). Once you are happy with your changes, use git to `add` your changes, `commit` them, and then `push` them back to this GitHub repo. (**Recommended approach**)
 2. Edit the code in your browser by pressing the "." key to open an in-browser VS Code session. Commit your changes using the built-in version control panel.
 3. You can also simply navigate to the file you want to modify in the GitHub repo and click the edit icon to add your changes and commit them directly.
 4. Request access to the BRN Orchestra server (contains RStudio, VS Code, and Jupyter IDEs) by contacting training@bioresnet.org. Once granted, you will be able to open the repo in your own server sessions and `add`, `commit`, and `push` it back to GitHub.
