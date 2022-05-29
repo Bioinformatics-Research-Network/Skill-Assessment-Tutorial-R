@@ -235,13 +235,13 @@ For a tutorial on how to use **git and GitHub**, check out these resources:
 
 For basic **python programming**, check out these resources:
 
-1. Written tutorials: [R for Data Science (book)](https://www.learnpython.org/), [Introduction to R (book)](https://intro2r.com/), 
+1. Written tutorials: [Introduction to R (book)](https://intro2r.com/), [Hands-On Programming with R (book)](https://rstudio-education.github.io/hopr/), [W3 schools](https://www.w3schools.com/r/)
 2. YouTube tutorials: [Simplilearn](https://www.youtube.com/watch?v=7NLPPFU0O3w), [Algovibes](https://www.youtube.com/watch?v=fpl_ny-jX5Y), [BIG Bioinformatics](https://www.bigbioinformatics.org/r-for-premat)
-3. MOOCs: [EdX](https://www.edx.org/course/data-science-r-basics), [Coursera](https://www.coursera.org/specializations/python)
-4. Online learning platforms: [codecademy](https://www.codecademy.com/learn/learn-python-3), [DataCamp](https://www.datacamp.com/learn/python)
+3. MOOCs: [EdX](https://www.edx.org/course/data-science-r-basics), [Coursera](https://www.coursera.org/learn/r-programming)
+4. Online learning platforms: [DataCamp](https://app.datacamp.com/learn/courses/free-introduction-to-r), [dataquest](https://app.dataquest.io/c/90/m/499/introduction-to-programming-in-r), [codecademy](https://www.codecademy.com/learn/learn-r)
 
 
 For learning how to use **`testthat`**, check out these resources:
 
-1. Written: [Official pytest docs](https://pytest.org/), [real python](https://realpython.com/pytest-python-testing/)
-2. YouTube: [edureka!](https://www.youtube.com/watch?v=byaxg00Gf9I)
+1. Written: [Official testthat docs](https://testthat.r-lib.org/), [R-bloggers](https://www.r-bloggers.com/2019/11/automated-testing-with-testthat-in-practice/)
+2. YouTube: [InfoWorld](https://www.youtube.com/watch?v=bx92oCMxUhg)
