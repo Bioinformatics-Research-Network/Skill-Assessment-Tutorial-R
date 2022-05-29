@@ -1,12 +1,7 @@
 library(testthat)
 
-setwd("../")
-source("main.R")
+source("../main.R")
 
-test_that("Printing 'Hello world!' works", {    
-    expect_equal(hello(), "Hello world!")  
-})
-
-test_that("Printing 'Hello <name>!' works", {    
-    expect_equal(hello("Friend"), "Hello Friend!")  
+test_that("hello() works", {    
+    expect_equal(hello(), "Hello, world!")  
 })
