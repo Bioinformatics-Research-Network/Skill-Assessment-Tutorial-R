@@ -164,21 +164,14 @@ I will see this comment and run the checks for you. You can monitor the progress
 
 The automated checks are run with [GitHub Actions](https://docs.github.com/en/actions) using the workflow defined in `.github/workflows/tests.yml` within this repo. 
 
-When triggered, GitHub actions creates a new computing environment using the details in `tests.yml`. For this assessment, the environment contains R `v4.2.0`. That is defined in this part of the file:
+When triggered, GitHub actions creates a new computing environment using the details in `tests.yml`. For this assessment, the environment contains R `v4.2.0`. We also install the `testthat` R package. That is defined in this part of the file:
 
 ```yml
 - uses: r-lib/actions/setup-r@v2
     with:
         use-public-rspm: true
         r-version: '4.2.0'
-```
-
-It also downloads the package dependencies from the `renv` lock file. The only dependency in this repo is the `testthat` R package, used for running automatic checks.
-
-```yml
-- uses: r-lib/actions/setup-renv@v2
-    with:
-        cache-version: 2
+- run: Rscript -e 'install.packages("testthat")'
 ```
 
 The repo code is then tested in the last part of the workflow:
