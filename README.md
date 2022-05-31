@@ -268,7 +268,7 @@ For learning how to use **`testthat`**, check out these resources:
 [![](https://img.shields.io/static/v1?label=R-Version&message=4.2.0&color=cornflowerblue)](https://brnteam.notion.site/e8c045b812d842f8bca8e339d22c38ad?v=6245e8becaa641bcafd276e5d910e402)
 [![](https://img.shields.io/static/v1?label=Packages-allowed&message=None&color=lightgray)](https://brnteam.notion.site/e8c045b812d842f8bca8e339d22c38ad?v=6245e8becaa641bcafd276e5d910e402)
 
-These badges the requirements for completing the assessment and the environment used for running checks.
+These badges describe the requirements for completing the assessment and the environment used for running checks.
 
 To learn all about these metadata badges, please check the info sheet [here](https://brnteam.notion.site/e8c045b812d842f8bca8e339d22c38ad?v=6245e8becaa641bcafd276e5d910e402).
 
