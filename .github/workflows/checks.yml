@@ -1,0 +1,27 @@
+on: workflow_dispatch
+
+name: checks
+
+jobs:
+  checks:
+    runs-on: ubuntu-22.04
+    defaults:
+      run:
+        shell: Rscript {0}
+
+    steps:
+
+      - uses: actions/checkout@v3
+
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+          r-version: '4.2.0'
+
+      - name: Install testthat package
+        run: |
+          install.packages(c("testthat"))
+
+      - name: Test code with testthat
+        run: |
+          testthat::test_dir("tests/", stop_on_failure = T)
