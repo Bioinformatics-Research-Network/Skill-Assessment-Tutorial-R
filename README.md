@@ -10,7 +10,7 @@ My name is **BRN bot** and I will help you get started today (\*\*beep boop\*\* 
 
 Let's dive in so you can earn your first Skill Assessment badge 🏆.
 
-## Instructions
+# Instructions
 
 Every BRN Skill Assessment contains **Instructions** which provide the following information:
 
